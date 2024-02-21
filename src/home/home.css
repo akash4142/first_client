@@ -1,0 +1,16 @@
+
+.background{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.profilepic{
+    position: absolute;
+    bottom: -30px;
+    left: 40%;
+    border-radius: 50%;
+    object-fit:fill;
+    height: calc(100-20)vh;
+}
+

@@ -1,0 +1,118 @@
+.experience{
+    margin: 50px ;
+}
+.experienceHeading{
+    padding: 50px;
+    font-size: 50px;
+    color: gray;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 7s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttonwes{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: green;
+    color:white;
+}
+
+.buttonwes:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+.buttonvp{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: green;
+    color:white;
+}
+
+.buttonvp:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+.buttonnations{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: green;
+    color:white;
+}
+
+.buttonnations:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+.wes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wesimage{
+    height: 300px;
+    width: 300px;
+}
+
+.westext{
+    margin: 10px;
+    color: #fff;
+}
+
+.wesheading{
+    margin: 20px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.wesduration{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.weslocation{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.wesduties{
+    margin: 20px;
+}
+
+.vp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    margin:20px;
+    font-size: 30px;
+    padding: 10px 40px 40px 40px ;
+}
+
+.unordered-list{
+    margin-left:auto;
+    margin-right: 40px;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-item{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
