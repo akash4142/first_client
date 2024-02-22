@@ -2,6 +2,14 @@
     color: white;
 }
 
+.phone{
+    display: flex;
+}
+
 .contactHeading{
+    color: white;
+}
+
+.phoneNumber{
     color: white;
 }

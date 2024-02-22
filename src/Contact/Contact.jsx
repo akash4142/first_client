@@ -7,7 +7,19 @@ export default function Contact() {
       <h1 className='contactHeading'>Contact Me - </h1>
       <div className="phone">
         <HiPhone className='phoneIcon'/>
-        
+        <h3 className='phoneNumber'>+1 437-984-4182</h3>
+      </div>
+      <div className="phone">
+        <HiPhone className='phoneIcon'/>
+        <h3 className='phoneNumber'>+1 437-984-4182</h3>
+      </div>
+      <div className="phone">
+        <HiPhone className='phoneIcon'/>
+        <h3 className='phoneNumber'>+1 437-984-4182</h3>
+      </div>
+      <div className="phone">
+        <HiPhone className='phoneIcon'/>
+        <h3 className='phoneNumber'>+1 437-984-4182</h3>
       </div>
     </div>
   );
