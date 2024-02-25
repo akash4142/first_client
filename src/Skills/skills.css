@@ -1,0 +1,64 @@
+.skills {
+    background-color: #222;
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .heading {
+    padding: 30px;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 7s ease-in-out infinite;
+  }
+  
+  .skill-list {
+    background-color: #222;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-list li {
+    background-color: #222;
+    color: #fff;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    position: relative;
+  }
+  
+  .skill-list li .skill-name {
+    display: inline-block;
+    background-color: #222;
+  }
+  
+  .skill-list li .skill-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px; /* Height of the skills bar */
+    width: 0; /* Start with a width of 0, it will be animated */
+    background-color: red; /* Color of the skills bar */
+    transition: width 0.8s ease; /* Animation duration and timing function */
+  }
+  
+  .skill-list li:hover .skill-bar {
+    width: 100%; /* Full width on hover */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

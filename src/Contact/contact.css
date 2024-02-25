@@ -1,15 +1,64 @@
-.phoneIcon{
-    color: white;
+*{
+    box-sizing: border-box;
 }
 
-.phone{
+.contact{
+    background-color: #222;
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.phoneIcon{
+    color: white;
+    margin-right: 10px;
+}
+
+.contact2{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 40px;
+    background-color: #222;
+}
+
+.phone {
+    background-color: #222;
     display: flex;
 }
 
 .contactHeading{
+    background-color: #222;
     color: white;
+    font-size: 2em; /* Larger font size */
+    font-weight: 700; /* Bolder font weight */
+    margin-bottom: 30px; 
 }
 
-.phoneNumber{
+.phoneNumber, .phone a{
+    background-color: #222;
     color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
 }
+
+.copyright{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.copyRightText{
+    align-items: center;
+    text-align: center;
+}
+
+
+

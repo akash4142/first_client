@@ -1,14 +1,18 @@
 *{
-    background-color: black
+    background-color: black;
+    box-sizing: border-box;
 }
 
 .about{
+    background-color: #222;
     margin: 100px;
+    padding: 50px;
+    text-align: center;
 }
 
 .heading{
     padding: 30px;
-    font-size: 50px;
+    font-size: 2em;
     color: white;
     font-weight: 500;
     font-style: italic;
@@ -31,8 +35,10 @@
 .summary{
     color: #fff;
     margin: 20px;
-    font-size: larger;
     font-family: sans-serif;
+    font-size: 1.2em; /* Slightly larger font size */
+    line-height: 1.5; /* Improve line height for better readability */
+    margin-top: 20px; /* Adjust top margin */
 }
 
 
